@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Page</title>
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  margin: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.navbar a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:verdana;
+}
+
+.navbar a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkred;
+}
+
+.main {
+  flex: 70%;
+  backround-color: white;
+  padding: 20px;
+}
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  felx-wrap: wrap;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+</style>
+</head>
+<body style="background-color:">
+  <br>
+  <br>
+  <h1 style="text-align:center; color:darkred; font-family:verdana;">Bill Gardynski
+  <br>
+  <br>
+  </h1>
+
+<div class="navbar">
+    <li><a class="active" href="#homep">Home</a></li>
+    <li><a href="https://www.nhl.com">NHL</a><li>
+    <li><a href="https://www.jordan.com">Jordan</a><li>
+    <li style="float:right"><a href="mailto:bgardynski@gmail.com?subject=feedback">Email Me</a><li>
+</div>
+
+<div class="row">
+  <div class="main">
+    <h2>Why do I want to learn to code?</h2>
+    <h5>There are several reasons...</h5>
+    <img src="http://windowsclan.com/wp-content/uploads/2016/10/matrix-code-scroll-wallpaper-1.gif" alt="The Matrix" height="400" width="700">
+    <p>I have been interested in coding and website design for some time, but I have never taken the time to really learn it.</p>
+    <p>I did some research, and I tried to learn as much as I could about coding bootcamps. I thought about how I could apply the knowledge I would learn to my current delivery business. Or, it's possible that I could go in a direction that ends with me in a different career, which I never thought I'd have. </p>
+    <br>
+    <h2>Favorite Sport: Hockey</h2>
+    <h5>Below is a photo I took at the 2013 Stanley Cup Final</h5>
+    <img src="/Users/bg/Documents/images/bruinshawksfinal13.jpg" alt="2013 Stanley Cup Final" height="400" width="700">
+    <p>I am a fan of many sports, but hockey is my favorite.</p>
+    <p>I play hockey, both ice and floor hockey, and I'm a goalie. I am a big Bruins fan, and I have had season tickets for 10+ seasons.</p>
+    </div>
+  <div class="side">
+    <h2>About Me</h2>
+    <img src="/Users/bg/Documents/images/bghockey.jpg" alt="Playing hockey" height="235" width="250">
+    <p>Me playing hockey.</p>
+    <h3>My Favorite Air Jordan Sneakers</h3>
+      <img src="https://sneakernews.com/wp-content/uploads/2018/05/where-to-buy-air-jordan-3-katrina.jpg" alt="Air Jordan III" height="210" width="300">
+        <p>Air Jordan III</p>
+      <img src="http://airjordanshoeshq.com/wp-content/uploads/2012/04/air-jordan-11-retro-concord-2011.jpg" alt="Air Jordan XI" height="210" width="300">
+        <p>Air Jordan XI</p>
+      <img src="http://sneakernews.com/wp-content/uploads/2014/04/eastbay-air-jordan-restock-april-2014-33.jpeg" alt="Air Jordan XII" height="210" width="300">
+        <p>Air Jordan XII</p>
+    <br>
+
+      <h5>How does the site look? Make your selection below:</h5>
+        <form>
+          <input type="radio" name="feedback" value="great" checked> Great!<br>
+          <input type="radio" name="feedback" value="good" checked> Good<br>
+          <input type="radio" name="feedback" value="needsmorework" checked> Needs more work<br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
