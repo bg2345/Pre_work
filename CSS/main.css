@@ -20,6 +20,10 @@ li {
   float: left;
 }
 
+li.pull-right{
+  float: right;
+}
+
 .navbar a{
   display: block;
   color: white;
@@ -37,6 +41,12 @@ li {
   background-color: darkred;
 }
 
+h1 {
+  text-align: center;
+  color: darkred;
+  font-family: verdana;
+}
+
 .main {
   flex: 70%;
   backround-color: white;
@@ -47,6 +57,34 @@ li {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
+  border-left: 5px;
+  border-width: medium;
+  border-left-style: solid;
+  border-left-color: darkred;
+}
+
+img.main_pics {
+  height: 400px;
+  weidth: 700px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+img.hockey_me {
+  height:235px;
+  width:250px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+}
+
+img.side-pic{
+  height: 210px;
+  width: 300px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
 }
 
 .row {
