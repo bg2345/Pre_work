@@ -88,3 +88,7 @@ img.side-pic{
   display: flex;
   felx-wrap: wrap;
 }
+
+/* p { TODO: Add borders to seperate content
+  border-bottom: 1px solid #ccc
+} */
