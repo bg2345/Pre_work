@@ -6,7 +6,7 @@
 
 body {
   font-family: verdana;
-  margin: 0;
+  margin-left: 10px;
 }
 
 .navbar {
@@ -15,6 +15,7 @@ body {
   padding:0;
   overflow: hidden;
   background-color: #333;
+  width: 100%;
 }
 
 li {
@@ -46,22 +47,45 @@ h1 {
   text-align: center;
   color: darkred;
   font-family: verdana;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.nav-item-right {
+  padding-right: 15px;
+}
+
+.col-md-12 {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .main {
-  flex: 70%;
-  backround-color: white;
-  padding: 20px;
+  margin-left: 25px;
+  /* margin-right: 15px; */
+
 }
 
-.side {
-  flex: 30%;
+.col-md-8 {
+  backround-color: white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-right: 35px;
+
+}
+
+.col-md-4 {
+  /* flex: 30%; */
   background-color: #f1f1f1;
-  padding: 20px;
+  /* padding: 20px; */
   border-left: 5px;
   border-width: medium;
   border-left-style: solid;
   border-left-color: darkred;
+  padding-top: 20px;
+  width: 100%;
+  padding-left: 40px;
 }
 
 img.main_pics {
@@ -70,6 +94,8 @@ img.main_pics {
   border-style: solid;
   border-width: thin;
   border-color: black;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 img.hockey_me {
@@ -78,6 +104,8 @@ img.hockey_me {
   border-style: solid;
   border-width: thin;
   border-color: black;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 img.side-pic{
@@ -86,12 +114,14 @@ img.side-pic{
   border-style: solid;
   border-width: thin;
   border-color: black;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
-.row {
+/* .row {
   display: flex;
-  felx-wrap: wrap;
-}
+  flex-wrap: wrap;
+} */
 
 /* p { TODO: Add borders to seperate content
   border-bottom: 1px solid #ccc
