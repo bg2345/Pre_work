@@ -6,8 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
 h1 {
   text-align: center;
   color: darkred;
@@ -20,11 +18,9 @@ h1 {
   padding-right: 15px;
 }
 
-/* .col-md-12 {
-  width: 100%;
-  padding-right: 0;
-  padding-left: 0;
-} */
+a:hover {
+  background-color: darkred;
+}
 
 .main {
   margin-left: 25px;
@@ -49,7 +45,6 @@ h1 {
   border-left-style: solid;
   border-left-color: darkred;
   padding-top: 20px;
-  /* width: 100%; */
   padding-left: 40px;
 }
 
@@ -82,11 +77,6 @@ img.side-pic{
   margin-top: 15px;
   margin-bottom: 10px;
 }
-
-/* .row {
-  display: flex;
-  flex-wrap: wrap;
-} */
 
 /* p { TODO: Add borders to seperate content
   border-bottom: 1px solid #ccc
