@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block title %}
+  {{ super() }} - contact
+{% endblock %}
+
+{% block app_content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card contact_form">
+              {{ wtf.quick_form(form) }}
+            </div> <!-- ends card -->
+          </div> <!-- ends col-md-12 -->
+        </div> <!-- ends row -->
+      </div> <!-- ends col-md-8 -->
+    </div> <!-- ends row -->
+  </div> <!-- ends container -->
+{% endblock %}
