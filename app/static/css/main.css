@@ -1,47 +1,12 @@
-.abs-center-x {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 
 body {
   font-family: verdana;
-  margin-left: 10px;
+  /* margin-left: 10px; */
+  overflow-x: hidden;
 }
 
-.navbar {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-  overflow: hidden;
-  background-color: #333;
-  width: 100%;
-}
 
-li {
-  float: left;
-}
-
-li.pull-right{
-  float: right;
-}
-
-.navbar a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family:verdana;
-}
-
-.navbar a:hover {
-  background-color: #111;
-}
-
-.active {
-  background-color: darkred;
-}
 
 h1 {
   text-align: center;
@@ -55,15 +20,15 @@ h1 {
   padding-right: 15px;
 }
 
-.col-md-12 {
+/* .col-md-12 {
   width: 100%;
   padding-right: 0;
   padding-left: 0;
-}
+} */
 
 .main {
   margin-left: 25px;
-  /* margin-right: 15px; */
+  margin-right: 15px;
 
 }
 
@@ -84,11 +49,11 @@ h1 {
   border-left-style: solid;
   border-left-color: darkred;
   padding-top: 20px;
-  width: 100%;
+  /* width: 100%; */
   padding-left: 40px;
 }
 
-img.main_pics {
+.main_pics {
   height: 400px;
   weidth: 700px;
   border-style: solid;
@@ -126,3 +91,7 @@ img.side-pic{
 /* p { TODO: Add borders to seperate content
   border-bottom: 1px solid #ccc
 } */
+
+form {
+  margin-bottom: 20px;
+}
