@@ -6,6 +6,14 @@ body {
   overflow-x: hidden;
 }
 
+.messages {
+  position: fixed;
+  top: 70px;
+  left: 10px;
+  color: red;
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   color: darkred;
@@ -46,6 +54,13 @@ a:hover {
   border-left-color: darkred;
   padding-top: 20px;
   padding-left: 40px;
+  border-right: 5px;
+  border-width: medium;
+  border-right-style: solid;
+  border-right-color: darkred;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: darkred;
 }
 
 .main_pics {
